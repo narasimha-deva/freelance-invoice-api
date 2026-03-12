@@ -1,38 +1,22 @@
 # Freelance Invoice API
 
-Backend API for managing freelance clients, invoices, and payments.
+## Development Phases
 
-## Tech Stack
+### Phase 1 — Project Setup
+- Express server setup
+- Folder structure
+- Environment configuration
+- Basic server running
 
-Node.js  
-Express.js  
-MongoDB  
-Mongoose  
-JWT Authentication  
-bcryptjs  
+### Phase 2 — Database Connection
+- MongoDB Atlas connection
+- Mongoose configuration
+- Database connection module
 
-## Features
-
-- User Authentication
-- Client Management
-- Invoice Tracking
-- Payment Recording
-- Revenue Analytics
-
-## Installation
-
-Clone the repository
-
-git clone https://github.com/narasimha-deva/freelance-invoice-api.git
-
-Install dependencies
-
-npm install
-
-Run server
-
-node src/server.js
-
-Server runs on:
-
-http://localhost:5000
+### Phase 3 — Authentication System
+- User model
+- User registration API
+- User login API
+- Password hashing using bcrypt
+- JWT token generation
+- Protected authentication middleware
